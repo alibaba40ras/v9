@@ -1,0 +1,272 @@
+* {font-family: Verdana;}
+
+.clear {clear: both;}
+
+body {width: 1000px; margin: 0 auto; background-color: #66CCFF;}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1, h2, h3 {margin-top: 0;}
+
+header {
+    margin-bottom: 20px;
+}
+header img {
+    float: left;
+    width: 280px;
+    height: 160px;
+}
+header h1 {
+    float: left; 
+    margin: 40px 0 0 200px;
+}
+
+nav {
+    float: left; 
+    width: 200px; 
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    padding: 0 15px 15px 15px; 
+    font-size: 18px;
+    margin-right: 20px;
+}
+nav a {
+    display: block;
+}
+nav a:hover {font-weight: bold;}
+nav div {
+    position: relative; 
+    top: -10px; 
+    left: 15px; 
+    background-color: #66CCFF;
+    width: 49px;
+}
+
+.container-main {
+    float: left;
+    width: 720px;
+}
+
+.container-column {
+    float: left;
+}
+
+.container-main p {
+    text-align: justify;
+    margin: 0 0 10px;
+}
+
+/* Home Page */
+
+.container-product-promo {
+    margin: 20px 0;
+}
+
+.container-product-promo .item-product {
+    width: 348px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container-product-promo .item-product.right {
+    margin-right: 0;
+
+}
+
+.container-product-promo .item-product img {
+    width: 200px;
+    padding: 30px 75px;
+}
+
+.container-product-promo .item-product h3 {
+    margin: 0;
+}
+
+.container-product-promo .item-product em {
+    display: block; 
+    font-size: 18px;
+}
+
+.container-product-promo .item-product h3 a, .container-product-promo .item-product em a {
+    display: block;
+    padding-left: 75px;
+}
+
+.container-product-promo .item-product h3 a {
+    margin: 10px 0;
+}
+
+.container-product-promo .item-product em a {
+    padding-bottom: 30px;
+}
+
+.container-news p {margin: 0 0 15px;}
+
+.container-news p a {color: #00f;}
+
+/* about us */
+
+article p {
+    text-indent: 20px;
+}
+
+/* contact us */
+
+.contact-form {width: 60%; margin-right: 20px; float: left;}
+.contact-form label {display: block; margin-bottom: 10px;}
+.contact-form label span {display: block; float: left; width: 100px;}
+.contact-form textarea {width: 230px; height: 100px;}
+.contact-form button {margin-left: 300px;}
+.contact-form input, .contact-form textarea {border: 1px solid #000;}
+.contact-text {margin-bottom: 20px;}
+.contact-text address {font-style: normal;}
+
+.contact-map img {width: 100px; }
+
+/* catalog */ 
+.catalog-search {border: 1px solid #000; padding: 20px; margin-bottom: 20px;}
+.catalog-search input {width: 300px; height: 25px;}
+.catalog-search select {float: right; margin-top: 5px;}
+
+.container-catalog .item-product {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container-catalog .item-product img {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-catalog .item-product h3 {
+    float: left;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.container-catalog .item-product em {
+    display: block;
+    float: left;
+    margin-top: 28px;
+    color: #0a0;
+    font-size: 24px;
+}
+
+/* product page */
+
+article.product {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article.product .product-head {
+    margin-bottom: 20px;
+}
+
+article.product .product-head img {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+article.product .product-head .container-column {
+    width: 400px;
+}
+
+article.product .product-head .container-column h2 {margin-top: 20px;}
+article.product .product-head .container-column em {
+    margin: 20px 0; 
+    display: block;
+}
+
+article.product p {text-indent: 0;}
+
+article.product .product-gallery {
+    margin-bottom: 30%;
+}
+article.product .product-gallery img {
+    float: left;
+    width: 219px;
+    margin-right: 20px;
+}
+article.product .product-gallery img.last {
+    margin-right: 0;
+    width: 200px;
+
+}
+
+/* blog */
+.item-article {
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.item-article h3 {
+    margin: 10px 0;
+}
+
+.item-article em {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* article */ 
+.container-main img{
+    width: 200px; 
+    height: 160px;
+    padding:10px;
+    margin: 10px 0;
+
+}
+.container-main .container-comments{
+    border: 1px #000 solid;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding: 5px;
+}
+.container-main section p{ 
+    margin-bottom:20px;
+    padding: 5px;
+}
+.container-main .container-comments .comments {
+    position: relative;
+    top: -17px;
+    left: 20px;
+    padding-left:6px;
+    background-color: #66CCFF;
+    width: 96px;
+}
+.container-main .container-comments em{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.container-main section fieldset, input, textarea, button {
+    border: 1px #000 solid;
+}
+.container-main section fieldset{
+   margin-bottom: 20px;
+}
+.container-main .container-form  label {
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.container-main .container-form label span  {
+    display: block;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
